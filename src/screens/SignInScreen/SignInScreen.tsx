@@ -9,9 +9,9 @@ import {
 } from 'react-native';
 import React, {useState} from 'react';
 import Logo from '../../../assets/images/logo-bg.png';
-import Input from '../../components/Input/Input';
-import Input2 from '../../components/Input/Input2';
-import Button from '../../components/Button/Button';
+import Input from '../../components/atoms/Input/TextInput';
+import Input2 from '../../components/atoms/Input/PasswordInput';
+import Button from '../../components/atoms/Button/Button';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const SignInScreen = () => {
